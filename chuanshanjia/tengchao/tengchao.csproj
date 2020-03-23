@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7806B80-1348-4246-BDCC-4B7289B0C38E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>tengchao</RootNamespace>
+    <AssemblyName>tengchao</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\zhangjunyu\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>14725333A9F3E4739101F5C3A1E53F092CAEE2D1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>tengchao_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DmsTestFile\chuanshanjia_test\startDms\bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>F:\旧电脑内容\e盘\zebra4s\startDms\startDms\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tesseract, Version=3.0.2.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tesseract.3.0.2.0\lib\net40\Tesseract.dll</HintPath>
+    </Reference>
+    <Reference Include="Uploads, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\Uploads.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CallWin32Api.cs" />
+    <Compile Include="ClipboardAsync.cs" />
+    <Compile Include="ControlText.cs" />
+    <Compile Include="FreePermission.cs" />
+    <Compile Include="FrmInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInputDialog.Designer.cs">
+      <DependentUpon>FrmInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTopMost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTopMost.Designer.cs">
+      <DependentUpon>FrmTopMost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetmsgProcessNeedFunc.cs" />
+    <Compile Include="HistoryWip.cs" />
+    <Compile Include="InfoSql.cs" />
+    <Compile Include="MySqlConnectionPool.cs" />
+    <Compile Include="OpenWindGetMsg.cs" />
+    <Compile Include="CloseWindGetMsg.cs" />
+    <Compile Include="CommonFunc.cs" />
+    <Compile Include="MainWind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWind.Designer.cs">
+      <DependentUpon>MainWind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseCode.cs" />
+    <Compile Include="MouseClick.cs" />
+    <Compile Include="OperateSql.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicDefine.cs" />
+    <Compile Include="SearhWindFunc.cs" />
+    <Compile Include="TakeScreenCapture.cs" />
+    <Compile Include="Testcs.cs" />
+    <Compile Include="ZebraSql.cs" />
+    <EmbeddedResource Include="FrmInputDialog.resx">
+      <DependentUpon>FrmInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTopMost.resx">
+      <DependentUpon>FrmTopMost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWind.resx">
+      <DependentUpon>MainWind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tengchao_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Release\x86\SQLite.Interop.dll" />
+    <Content Include="x64\liblept172.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\libtesseract304.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\liblept172.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\libtesseract304.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.110.0\build\net40\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.110.0\build\net40\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.110.0\build\net40\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.110.0\build\net40\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,10 @@
+E:\md5info\md5info\bin\Release\OTR小工具.exe.config
+E:\md5info\md5info\bin\Release\OTR小工具.exe
+E:\md5info\md5info\bin\Release\OTR小工具.pdb
+E:\md5info\md5info\obj\Release\md5info.csprojAssemblyReference.cache
+E:\md5info\md5info\obj\Release\md5info.Properties.Resources.resources
+E:\md5info\md5info\obj\Release\md5info.csproj.GenerateResource.cache
+E:\md5info\md5info\obj\Release\md5info.csproj.CoreCompileInputs.cache
+E:\md5info\md5info\obj\Release\OTR小工具.exe
+E:\md5info\md5info\obj\Release\OTR小工具.pdb
+E:\md5info\md5info\obj\Release\md5info.Form1.resources

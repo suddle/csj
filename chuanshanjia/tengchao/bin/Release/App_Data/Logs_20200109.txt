@@ -1,0 +1,432 @@
+2020-01-09 21:30:43,777 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,797 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,800 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:30:43,801 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:30:43,802 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:30:43,803 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:30:43,804 [5] INFO  穿山甲 - 上传结果0/0
+2020-01-09 21:30:43,804 [5] INFO  穿山甲 - 更新log...现在时间是：2020/1/9 21:30:43
+2020-01-09 21:30:43,805 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,806 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,830 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,860 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:30:43,878 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:30:43,882 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:30:43,904 [5] INFO  穿山甲 - 开始显示log...
+2020-01-09 21:30:43,955 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize(String className)
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   在 tengchao.LogShow.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 20
+2020-01-09 21:30:43,997 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_open_interop(Byte[] utf8Filename, Byte[] vfsName, SQLiteOpenFlagsEnum flags, Int32 extFuncs, IntPtr& db)
+   在 System.Data.SQLite.SQLite3.Open(String strFilename, String vfsName, SQLiteConnectionFlags connectionFlags, SQLiteOpenFlagsEnum openFlags, Int32 maxPoolSize, Boolean usePool)
+   在 System.Data.SQLite.SQLiteConnection.Open()
+   在 tengchao.LogShow.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 27
+2020-01-09 21:30:44,002 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_open_interop(Byte[] utf8Filename, Byte[] vfsName, SQLiteOpenFlagsEnum flags, Int32 extFuncs, IntPtr& db)
+   在 System.Data.SQLite.SQLite3.Open(String strFilename, String vfsName, SQLiteConnectionFlags connectionFlags, SQLiteOpenFlagsEnum openFlags, Int32 maxPoolSize, Boolean usePool)
+   在 System.Data.SQLite.SQLiteConnection.Open()
+   在 tengchao.LogShow.GetUploadLogInfo() 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 67
+2020-01-09 21:30:44,003 [5] INFO  穿山甲 - 11111111111开始数据统计...
+2020-01-09 21:30:44,005 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:30:44,007 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:30:44,008 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:30:44,009 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:30:44,116 [6] INFO  穿山甲 - 打印sql了delete from datatb where savetime like '2019-12-10%'
+2020-01-09 21:30:44,117 [6] INFO  穿山甲 - 打印sql了delete from uploadrecordtb where time like '2019-12-10%'
+2020-01-09 21:30:44,133 [6] INFO  穿山甲 - 公共函数出错，错误内容delete from uploadrecordtb where time like '2019-12-10%'
+2020-01-09 21:30:44,135 [6] INFO  穿山甲 - 打印sql了DROP TABLE IF EXISTS log20191210
+2020-01-09 21:30:44,172 [6] INFO  穿山甲 - 打印sql了DROP TABLE IF EXISTS queshi20191210
+2020-01-09 21:33:06,021 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,043 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,045 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:33:06,049 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:33:06,051 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:33:06,052 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:33:06,052 [5] INFO  穿山甲 - 上传结果0/0
+2020-01-09 21:33:06,053 [5] INFO  穿山甲 - 更新log...现在时间是：2020/1/9 21:33:06
+2020-01-09 21:33:06,055 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,058 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,083 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,092 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 21:33:06,115 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 21:33:06,116 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 21:33:06,128 [5] INFO  穿山甲 - 开始显示log...
+2020-01-09 21:33:06,187 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_config_none(SQLiteConfigOpsEnum op)
+   在 System.Data.SQLite.SQLite3.StaticIsInitialized()
+   在 System.Data.SQLite.SQLiteLog.Initialize(String className)
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString, Boolean parseViaFramework)
+   在 System.Data.SQLite.SQLiteConnection..ctor(String connectionString)
+   在 tengchao.LogShow.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 20
+2020-01-09 21:33:06,242 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_open_interop(Byte[] utf8Filename, Byte[] vfsName, SQLiteOpenFlagsEnum flags, Int32 extFuncs, IntPtr& db)
+   在 System.Data.SQLite.SQLite3.Open(String strFilename, String vfsName, SQLiteConnectionFlags connectionFlags, SQLiteOpenFlagsEnum openFlags, Int32 maxPoolSize, Boolean usePool)
+   在 System.Data.SQLite.SQLiteConnection.Open()
+   在 tengchao.LogShow.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 27
+2020-01-09 21:33:06,247 [5] INFO  穿山甲 - System.DllNotFoundException: 无法加载 DLL“SQLite.Interop.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 System.Data.SQLite.UnsafeNativeMethods.sqlite3_open_interop(Byte[] utf8Filename, Byte[] vfsName, SQLiteOpenFlagsEnum flags, Int32 extFuncs, IntPtr& db)
+   在 System.Data.SQLite.SQLite3.Open(String strFilename, String vfsName, SQLiteConnectionFlags connectionFlags, SQLiteOpenFlagsEnum openFlags, Int32 maxPoolSize, Boolean usePool)
+   在 System.Data.SQLite.SQLiteConnection.Open()
+   在 tengchao.LogShow.GetUploadLogInfo() 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\LogShow.cs:行号 67
+2020-01-09 21:33:06,248 [5] INFO  穿山甲 - 11111111111开始数据统计...
+2020-01-09 21:33:06,250 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:33:06,252 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:33:06,253 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:33:06,254 [5] ERROR 穿山甲 - error: MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.get_uploadnum_between_startdate_and_enddate(String startdate, String enddate, Int32 type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 615
+2020-01-09 21:33:06,316 [6] INFO  穿山甲 - 打印sql了delete from datatb where savetime like '2019-12-10%'
+2020-01-09 21:33:06,317 [6] INFO  穿山甲 - 打印sql了delete from uploadrecordtb where time like '2019-12-10%'
+2020-01-09 21:33:06,334 [6] INFO  穿山甲 - 公共函数出错，错误内容delete from uploadrecordtb where time like '2019-12-10%'
+2020-01-09 21:33:06,335 [6] INFO  穿山甲 - 打印sql了DROP TABLE IF EXISTS log20191210
+2020-01-09 21:33:06,376 [6] INFO  穿山甲 - 打印sql了DROP TABLE IF EXISTS queshi20191210
+2020-01-09 22:35:12,078 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,098 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,102 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 22:35:12,104 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 22:35:12,106 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 22:35:12,107 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 22:35:12,107 [5] INFO  穿山甲 - 上传结果0/0
+2020-01-09 22:35:12,108 [5] INFO  穿山甲 - 更新log...现在时间是：2020/1/9 22:35:12
+2020-01-09 22:35:12,109 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,110 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,233 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,261 [5] INFO  穿山甲 - CountsFromSqlite错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.CountsFromSqlite(String type) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 678
+2020-01-09 22:35:12,265 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetRuChangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 444
+2020-01-09 22:35:12,266 [5] INFO  穿山甲 - 000GetChuchangNum出错MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.OperateSql.GetChuchangNum(String stat) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\OperateSql.cs:行号 409
+2020-01-09 22:35:12,291 [5] INFO  穿山甲 - 开始显示log...
+2020-01-09 22:35:12,303 [5] INFO  穿山甲 - MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 633
+2020-01-09 22:35:12,340 [5] INFO  穿山甲 - MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'first_ruku_time' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 tengchao.ZebraSql.GetCaptureLogInfo(String is_full) 位置 E:\allgitproject\chuanshanjia_benz_crawl\chuanshanjia\tengchao\ZebraSql.cs:行号 633
+2020-01-09 22:35:12,372 [5] INFO  穿山甲 - 11111111111开始数据统计...
+2020-01-09 22:35:12,374 [5] INFO  穿山甲 - sql--->0
+2020-01-09 22:35:12,374 [5] INFO  穿山甲 - sql--->0
+2020-01-09 22:35:12,375 [5] INFO  穿山甲 - sql--->0
+2020-01-09 22:35:12,375 [5] INFO  穿山甲 - sql--->0
+2020-01-09 22:35:12,472 [6] INFO  穿山甲 - 打印sql了delete from datatb where first_ruku_time like '2019-12-10%'
+2020-01-09 22:35:12,474 [6] INFO  穿山甲 - 公共函数出错，错误内容delete from datatb where first_ruku_time like '2019-12-10%'
+2020-01-09 22:35:12,474 [6] INFO  穿山甲 - 打印sql了delete from uploadrecordtb where dat like '2019-12-10%'
+2020-01-09 22:35:12,494 [6] INFO  穿山甲 - 打印sql了delete from queshitb where dat like '%20191210%'
