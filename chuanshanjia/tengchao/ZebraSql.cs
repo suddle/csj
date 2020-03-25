@@ -1,8 +1,8 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using static tengchao.PublicDefine;
-using MySql.Data.MySqlClient;
 namespace tengchao
 {
     class ZebraSql

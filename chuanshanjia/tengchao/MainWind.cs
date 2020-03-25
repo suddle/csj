@@ -1,4 +1,5 @@
 ﻿using CCWin;
+using MySqlConnectionZebra;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,10 +10,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
-using Uploads;
 using static tengchao.CallWin32Api;
 using static tengchao.FreePermission;
 using static tengchao.PublicDefine;
+
 namespace tengchao
 {
     public partial class MainWind : CCSkinMain
@@ -797,7 +798,6 @@ namespace tengchao
                 string _GawPath = OperateSql.GetDmsInfo("gawpath");
                 ShellExecute(IntPtr.Zero, new StringBuilder("Open"), new StringBuilder(_GawPath), new StringBuilder(""), null, 1);
                 CommonFunc.CommonSleep("ReatsrtGawButtonClick", 2000);
-                CommonFunc.WaitFindWind(() => TakeUploads.TryCloseWenYu());
             }
             else
             {

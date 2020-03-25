@@ -102,7 +102,7 @@ namespace tengchao
             GlobalEditNum = 0;
             GetmsgProcessNeedFunc.enumwindow(_bighwnd, ConstConcatTag);
             GlobalEditNum = 0;
-            _DengLuUserId = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27050);
+            _DengLuUserId = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27033);//27033 27050
             GlobalJuBingCtrlidDict.Clear();
             return _DengLuUserId;
         }
@@ -117,7 +117,14 @@ namespace tengchao
             bool _mouse_call;
             try
             {
-                _mouse_call = MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 58, 2000);
+                _mouse_call = MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 71, 2000); //71  58
+                RECT rect = new RECT();
+                GetWindowRect(hWnd, out rect);
+                int Topclick = (rect.Top + 10) * 65535 / GlobalWindowH; // 131  711
+                int Leftclick = (rect.Left + 71) * 65535 / GlobalWindowW; // 481  1216
+                int top = rect.Top + 10;
+                int left = rect.Left + 71;
+                logg.Info(top.ToString()+"信息二"+left.ToString());
                 return _mouse_call;
             }
             catch (Exception e)
@@ -138,7 +145,7 @@ namespace tengchao
             logg.Info("点击相关车辆");
             try
             {
-                MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 264, 1000);
+                MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 335, 1000);//335 264
             }
             catch (Exception e)
             {

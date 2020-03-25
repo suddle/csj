@@ -1,14 +1,15 @@
-﻿using System;
+﻿using CliboardZebra;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
-using static tengchao.PublicDefine;
+using System.Windows.Forms;
 using static tengchao.CallWin32Api;
 using static tengchao.GetmsgProcessNeedFunc;
-using System.Text.RegularExpressions;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
+using static tengchao.PublicDefine;
 
 namespace tengchao
 {
@@ -182,6 +183,7 @@ namespace tengchao
             {
                 _istrue = true;
                 CommonFunc.CommonSleep("GetCheLiangInfo", sl.Longe);
+                logg.Info(GlobalOperateUse + "的CRM");
                 IntPtr _MaindHwnd2 = FindWindow(null, GlobalOperateUse + "的CRM");
                 SetWindowPos(_MaindHwnd2, HWND_TOPMOST, 1, 1, 1, 1, SWP_NOMOVE | SWP_NOSIZE);
                 SetForegroundWindow(_MaindHwnd2);
@@ -390,7 +392,7 @@ namespace tengchao
             GlobalOrderState = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27225);
             GlobalZebraDataType = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 26686);
             GlobalWipNum = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 26684);
-            GlobalXiuLiPersonDaiHao = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27050);
+            GlobalXiuLiPersonDaiHao = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27033);//27033 27050
             string songxiudate = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27010);
             string songxiutimes = CommonFunc.GettextFromCtrlidAndJubing(GlobalJuBingCtrlidDict, 27011);
             logg.Info(songxiudate + " "+ songxiutimes+"送修时间打印");

@@ -157,7 +157,7 @@ namespace tengchao
                     int topadd = rect.Top;
                     int leftadd = rect.Left;
                     CommonFunc.CommonSleep("FindWeixiu", 13000);
-                    MouseClick.AddYanZhengClickOne(_WindowTitle, "ToolBar_Class", hWnd, topadd, leftadd + 10, 2000);//点击报表
+                    MouseClick.AddYanZhengClickOne(_WindowTitle, "ToolBar_Class", hWnd, topadd, leftadd + 10, 2000);//点击维修
                     CommonFunc.CommonSleep("FindWeixiu", 500);
                     HistoryWip.ClickCopyWip(hWnd, 6, 10);
                     CommonFunc.CommonSleep("FindWeixiu", 500);
@@ -195,7 +195,7 @@ namespace tengchao
                     SetForegroundWindow(hWnd);
                     GlobalEditNum = 0;
                     logg.Info("点击账单。。。");
-                    MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 89, 1500);
+                    MouseClick.AddYanZhengClickOne("", "KTabEars", hWnd, 10, 105, 1500);// 105 89
                 }
             }
             else if (classname == "Edit" && ConstDmsTag == GlobalTag)//登陆dms时候  输入用户名和密码 
@@ -258,7 +258,7 @@ namespace tengchao
                 if (!GlobalSystemStop)
                 {
                     CommonFunc.CommonSleep("enum-const_CHELIANG_Tag", 500);
-                    OpenWindGetMsg.CheLiangTag(hWnd);
+                    SearhWindFunc.CheLiangTag(hWnd);
                 }
             }
             // 关闭wip锁定页面
@@ -352,7 +352,7 @@ namespace tengchao
             {
                 if (!GlobalSystemStop)
                 {
-                    GetChuChangTime(hWnd);
+                    SearhWindFunc.GetChuChangTime(hWnd);
                 }
             }
             //获取修理项目信息
@@ -385,7 +385,7 @@ namespace tengchao
                     }
                 }
             }
-            else if (classname == "ListBox_Class" && ConstClickDateTag == GlobalTag)
+            else if (classname == "ListBox_Class" && ConstClickDateTag == GlobalTag)//点击创建日期
             {
                 if (!GlobalSystemStop)
                 {
@@ -426,7 +426,7 @@ namespace tengchao
 
                 }
             }
-            else if (classname == "ThunderRT6TextBox" && ConstQuCheTimeTag == GlobalTag)
+            else if (classname == "ThunderRT6TextBox" && ConstQuCheTimeTag == GlobalTag)//取车时间
             {
                 if (!GlobalSystemStop)
                 {
@@ -441,7 +441,7 @@ namespace tengchao
                     GlobalTextBoxTag++;
                 }
             }
-            else if (classname == "ThunderRT6TextBox" && ConstOldUserInfoTag == GlobalTag)
+            else if (classname == "ThunderRT6TextBox" && ConstOldUserInfoTag == GlobalTag)//老用户
             {
                 if (!GlobalSystemStop)
                 {
@@ -576,148 +576,6 @@ namespace tengchao
             EnumWindowsCallBack((IntPtr)jubing, 0);
             GlobalTag = ConstTagNoop;
         }
-        /// <summary>
-        /// 从外部文件中匹配字符
-        /// </summary>
-        /// <param name="Path"></param>
-        public static List<string> ReadTxtContent(string Path)
-        {
-            string path = "";
-            StreamReader sr = new StreamReader(Path, Encoding.Default);
-            string content;
-            while ((content = sr.ReadLine()) != null)
-            {
-                path = content;
-                GlobalAllTxt.Add(content);
-            }
-            return GlobalAllTxt;
-        }
-        /// 获取工单进场时间
-        /// </summary>
-        /// <param name="hWnd">工单时间控件句柄</param>
-        public static void GetChuChangTime(IntPtr hWnd)
-        {
-            const int buffer_size = 10240000;
-            StringBuilder buffer = new StringBuilder(buffer_size);
-            SendMessage(hWnd, WM_GETTEXT, buffer_size, buffer);
-            if (GlobalEditNum == 12)
-            {
-                Match match8 = Regex.Match(buffer.ToString(), @"\d+");
-                if (match8.Success && buffer.ToString().StartsWith("2"))
-                {
-                    logg.Info(buffer.ToString()+"送修时间内容");
-                    string songxiutime = GeShiHuaTime(buffer.ToString());
-                    logg.Info(songxiutime + "songxiutime送修时间内容");
-                    songxiutime=songxiutime.Replace("/", "-");
-                    if (songxiutime.Contains("-")) {
-                        string[] sArray = songxiutime.Split('-');
-                        if (sArray.Length >= 2)
-                        {
-                            for (int i = 0; i < sArray.Length; i++)
-                            {
-                                if (i == 0)
-                                {
-                                    logg.Info(sArray[i] + "songxiutime里遍历");
-                                    GlobalSongXiuTimeYear = sArray[i];
-                                    logg.Debug("获取送修时间，内容是：" + GlobalSongXiuTimeYear);
-                                }
-                                if (i == 1)
-                                {
-                                    GlobalSongXiuTimeMonth = sArray[i];
-                                    if (GlobalSongXiuTimeMonth.Length == 1)
-                                    {
-                                        GlobalSongXiuTimeMonth = "0" + GlobalSongXiuTimeMonth;
-                                        logg.Debug("获取送修时间，内容是：" + GlobalSongXiuTimeMonth);
-                                    }
-                                }
-                                if (i == 2)
-                                {
-                                    GlobalSongXiuTimeDay = sArray[i];
-                                    logg.Debug("获取送修时间，内容是：" + GlobalSongXiuTimeDay);
-                                }
-                            }
-                        }
-                        else
-                        {
-                            GlobalSongXiuTimeYear = "";
-                            GlobalSongXiuTimeMonth = "";
-                            GlobalSongXiuTimeDay = "";
-                        }
-                    }
-                    else
-                    {
-                        GlobalSongXiuTimeYear = "";
-                        GlobalSongXiuTimeMonth = "";
-                        GlobalSongXiuTimeDay = "";
-                    }
-                }
-                else {
-                    GlobalSongXiuTimeYear = "";
-                    GlobalSongXiuTimeMonth = "";
-                    GlobalSongXiuTimeDay = "";
-                }
-            }
-            if (GlobalEditNum == 13)
-            {
-                if (buffer.ToString().Contains(".")) {
-                    string[] sArray = buffer.ToString().Split('.');
-                    if (sArray.Length >= 1)
-                    {
-                        GlobalSongXiuTimeHour = sArray[0];
-                        logg.Debug("获取送修时间，内容是：" + GlobalSongXiuTimeHour);
-                        GlobalSongXiuTimeMinute = sArray[1];
-                        logg.Debug("获取送修时间，内容是：" + GlobalSongXiuTimeMinute);
-                    }
-                    else
-                    {
-                        GlobalSongXiuTimeHour = "";
-                        GlobalSongXiuTimeMinute = "";
-                    }
-                }
-                else
-                {
-                    GlobalSongXiuTimeHour = "";
-                    GlobalSongXiuTimeMinute = "";
-                }
-            }
-            GlobalEditNum++;
-        }
-        /// <summary>
-        /// 转换时间，抓到的不是规则的，需要转换
-        /// </summary>
-        /// <param name="endday"></param>
-        /// <returns></returns>
-        public static string GeShiHuaTime(string endday)
-        {
-            string endtime = "";
-            if (!String.IsNullOrEmpty(endday)&&endday.Length!=0)
-            {
-                try
-                {
-                    Match match = Regex.Match(endday, @"\d+");
-                    if (endday != "" && match.Success)
-                    {
-                        string dateString = "20190101";
-                        DateTime dts = DateTime.ParseExact(dateString, "yyyyMMdd", System.Globalization.CultureInfo.CurrentCulture);
-                        var startday = int.Parse("2458485");
-                        var enddays = int.Parse(endday);
-                        int end = enddays - startday;
-                        DateTime dt = dts.AddDays(end).Date;
-                        endtime = string.Format("{0:d}", dt);
-                    }
-                    return endtime;
-                }
-                catch (Exception ex)
-                {
-                    logg.Info(ex.ToString() + "格式化时间");
-                    CommonFunc.SendBug("geshihau出错", "2", ex.ToString(), "getmsg_process_needfunc", "GeShiHuaTime");
-                    return "没数据";
-                }
-            }
-            else {
-                logg.Info("格式化时间为空");
-                return "没数据";
-            }
-        }
+        
     }
 }

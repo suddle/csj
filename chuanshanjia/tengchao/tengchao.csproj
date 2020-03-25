@@ -92,6 +92,9 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CliboardZebra">
+      <HintPath>..\..\..\..\..\All4S\CliboardZebra\CliboardZebra\bin\Debug\CliboardZebra.dll</HintPath>
+    </Reference>
     <Reference Include="CSkin, Version=16.1.14.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\DmsTestFile\chuanshanjia_test\startDms\bin\Debug\CSkin.dll</HintPath>
@@ -109,6 +112,9 @@
     <Reference Include="MySql.Data">
       <HintPath>F:\旧电脑内容\e盘\zebra4s\startDms\startDms\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="MySqlConnectionZebra">
+      <HintPath>..\..\..\..\..\All4S\MySqlConnectionZebra\MySqlConnectionZebra\bin\Debug\MySqlConnectionZebra.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
@@ -125,17 +131,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tesseract, Version=3.0.2.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tesseract.3.0.2.0\lib\net40\Tesseract.dll</HintPath>
-    </Reference>
-    <Reference Include="Uploads, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x86\Release\Uploads.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CallWin32Api.cs" />
-    <Compile Include="ClipboardAsync.cs" />
     <Compile Include="ControlText.cs" />
     <Compile Include="FreePermission.cs" />
     <Compile Include="FrmInputDialog.cs">
@@ -153,7 +151,6 @@
     <Compile Include="GetmsgProcessNeedFunc.cs" />
     <Compile Include="HistoryWip.cs" />
     <Compile Include="InfoSql.cs" />
-    <Compile Include="MySqlConnectionPool.cs" />
     <Compile Include="OpenWindGetMsg.cs" />
     <Compile Include="CloseWindGetMsg.cs" />
     <Compile Include="CommonFunc.cs" />

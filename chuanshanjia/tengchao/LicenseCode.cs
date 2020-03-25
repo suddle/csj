@@ -5,8 +5,8 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
-using static tengchao.PublicDefine;
 using static tengchao.FreePermission;
+using static tengchao.PublicDefine;
 namespace tengchao
 {
     class LicenseCode

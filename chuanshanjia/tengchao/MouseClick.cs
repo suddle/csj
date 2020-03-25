@@ -114,6 +114,7 @@ namespace tengchao
                 mouse_event(MOUSEEVENTF_MOVE | MOUSEEVENTF_ABSOLUTE, Leftclick, Topclick, 0, 0);
                 CommonFunc.CommonSleep("AddYanZhengClickOne", sl.Little);
                 GetPointAttribute(out point_txt, out point_class);
+                logg.Info(text+"##"+topadd+"##"+leftadd+"##"+classname);
                 if (point_txt == text)
                 {
                     mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, Leftclick, Topclick, 0, 0);

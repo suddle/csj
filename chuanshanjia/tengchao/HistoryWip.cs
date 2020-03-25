@@ -1,5 +1,7 @@
-﻿using System;
+﻿using CliboardZebra;
+using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -7,7 +9,7 @@ using System.Threading;
 using System.Windows.Forms;
 using static tengchao.CallWin32Api;
 using static tengchao.PublicDefine;
-using System.Collections.Specialized;
+
 namespace tengchao
 {
     class HistoryWip

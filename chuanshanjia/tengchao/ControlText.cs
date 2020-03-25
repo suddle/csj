@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using static tengchao.PublicDefine;
 using static tengchao.CallWin32Api;
+using static tengchao.PublicDefine;
 
 namespace tengchao
 {
